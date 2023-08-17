@@ -8,11 +8,11 @@
 body {
     font-family: 'Yeseva One', 'cursive', 'Noto Serif TC', serif, 'Noto Sans TC', sans-serif;
     color: $dark;
-    background: #F3F1E5;
 }
 
 a {
     padding: 0;
+    margin: 0;
     text-decoration: none;
     color: inherit;
 
@@ -40,5 +40,12 @@ p,
 .h4,
 .h5,
 .h6 {
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
 }

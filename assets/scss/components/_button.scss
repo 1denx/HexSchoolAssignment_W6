@@ -1,0 +1,10 @@
+.btn-dark {
+    &:hover {
+        color: $warning;
+    }
+}
+
+.btn-secondary {
+    --bs-btn-disabled-bg: #9A9A9A;
+    --bs-btn-color: #EBEAE3;
+}

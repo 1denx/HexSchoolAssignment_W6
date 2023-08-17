@@ -1,13 +1,19 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
+@import "../../node_modules/bootstrap";
+
+@import './utils/mixin';
 @import './base/base';
+@import './base/typography';
 
 @import '../images/icofont/icofont.min.css';
 
+@import './components/button';
+@import './components/card';
+
 @import './layout/header';
+@import './layout/marquee';
 @import './layout/footer';
 
 
 @import './pages/index';
-
-@import "../../node_modules/bootstrap";

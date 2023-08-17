@@ -1,4 +1,27 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.brand-pic {
+  width: 53px;
+
+  @include mobile {
+    width: 40px;
+  }
+}
+
+.form-control {
+  border: 2px solid $dark;
+  padding: 16px 0 16px 24px;
+
+  @include mobile {
+    padding: 8px 0 8px 12px;
+    margin-left: 25px;
+  }
+}
+
+.nav-link {
+  padding: 0;
+  color: $dark;
+  font-size: 18px;
+}
+
+.menu-icon {
+  padding: 11px 16px;
 }
